@@ -1,2 +1,2 @@
-# CubicNoise
-1D &amp; 2D Random noise with bicubic interpolatio
+A C# Port of the original library
+https://github.com/jobtalle/CubicNoise
