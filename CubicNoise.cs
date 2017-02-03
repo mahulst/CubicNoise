@@ -18,7 +18,7 @@ namespace Noise{
             return coordinate % period;
         }
 
-        static float CubicNoiseInterpolate(float a, float b, float c, float d, float x)
+        private static float CubicNoiseInterpolate(float a, float b, float c, float d, float x)
         {
             float p = (d - c) - (a - b);
             return x * x * x * p + x * x * ((a - b) - p) + x * (c - a) + b;
